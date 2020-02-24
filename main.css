@@ -1,0 +1,68 @@
+*{
+    font-family: 'verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(228, 230, 161);
+    margin: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link{
+display: block;
+width: 100%;
+height: 40px;
+text-align: center;
+padding-top: 1em;
+transition: background-color 0.5s;
+transition: color 0.5s}
+
+.nav-link{
+color: rgb(32, 134, 202);
+}
+
+.nav-link:hover {
+    color: cornsilk;
+    background-color: rgb(53, 81, 156);
+}
+
+ul li.nav-link {
+    list-style-type: none;
+}
+
+main {
+    max-width: 80%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.oferta {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.obraz {
+    width: 30%;
+    background: url("http://placekitten.com/200/100");
+`   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.obraz img {
+max-width: 100%;
+}
+
+.info {
+    width: 70%;
+    margin-left: 2em;
+}
